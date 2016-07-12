@@ -1,6 +1,6 @@
 {
   "name": "angular2-mean-starter",
-  "version": "0.5.0",
+  "version": "0.0.9",
   "description": "A very neat and simple starter kit for an angular2 MEAN app.",
   "main": "server.js",
   "repository": "https://github.com/giacomocerquone/angular2-mean-starter.git",
@@ -11,7 +11,7 @@
     "watch:less": "less-watch-compiler public/assets/less/ public/assets/css/styles.less",
     "build:ts": "tsc",
     "watch:ts": "tsc -w",
-    "typings": "typings install",
+    "postinstall": "typings install",
     "browsersync": "browser-sync start --files \"public/*.*\" --proxy 127.0.0.1:8080 --reload-delay=300 --reload-debounce=500"
   },
   "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com)",
