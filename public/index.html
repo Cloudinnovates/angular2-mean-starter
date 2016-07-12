@@ -5,12 +5,10 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/libs.js"></script>
+    <script src="assets/js/systemjs.config.js"></script>
 
     <script>
-      System.config({
-        packages: {'components': {defaultExtension: 'js'}}
-      });
-      System.import('components/bootstrap');
+      System.import('app').catch(function(err){ console.error(err);  });
     </script>
   </head>
 

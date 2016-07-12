@@ -1,6 +1,6 @@
 # angular2-mean-starter
 #### Angular 2 is still in beta, so there will be changes probably
-Make also sure to check the [**showcase of the app developed with this starter kit.**](https://github.com/giacomocerquone/angular2-mean-starter/tree/showcase) If you want to submit one, just do open a Pull Request headed to the showcase branch.
+Make also sure to check the [**showcase of the app developed with this starter kit.**](#showcase) If you want to submit one, just do open a Pull Request headed to the showcase branch.
 
 This is a very neat and simple starter kit for an angular2 MEAN SPA applications. Obviously this won't be perfect for every situation, but I found this really necessary to overcome the fear of the scary blank project and to discover some best practices on how to structure a project.
 Anyway it shouldn't be too hard to expand it to fit your needs.
@@ -26,6 +26,7 @@ Here you won't find any testing packages (TDD, DDD etc.) as much as any other "n
 + `watch:less` - Watch for changes of less files
 + `build:ts` - Build TypeScript files
 + `watch:ts` - Watch for changes on TypeScript files
++ `browsersync` - Live reload the web page when changes are made on the scripts
 
 ## What's in here (the stack)
 + Node.js (you don't say)
@@ -42,7 +43,10 @@ Here you won't find any testing packages (TDD, DDD etc.) as much as any other "n
 + Concurrently for running and handling multiple npm scripts
 + Less-watch-compiler to automatically watch changes to less files and compile them
 + Morgan as logging library
-+ Browserify to live reload the browser page
++ Browser-sync to live reload the browser page
 
 ## Contributions
 I'm really not a genius, probably I'm not even a good programmer yet, but I'm strongly convinced of "learning while doing" so I truly hope for some contributions, advices or anything else you can bring in to improve this starter and to make me a better programmer.
+
+## Showcase
+Add down here your own project developed with this starter!
